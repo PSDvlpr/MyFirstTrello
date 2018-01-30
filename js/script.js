@@ -90,7 +90,6 @@ $(function() {
     $('.column-card-list').sortable({
       connectWith: '.column-card-list',
       placeholder: '.card-placeholder',
-      dropOnEmpty: true
     }).disableSelection();
   }
 
